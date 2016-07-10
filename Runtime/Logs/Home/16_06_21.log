@@ -1,0 +1,42 @@
+[ 2016-06-21T23:54:44+08:00 ] ::1 /news_publish_tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.093006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022001s ]
+ERR: SQLSTATE[HY000] [1049] Base 'news' inconnue
+
+[ 2016-06-21T23:55:21+08:00 ] ::1 /news_publish_tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Base 'news' inconnue
+
+[ 2016-06-21T23:56:19+08:00 ] ::1 /news_publish_tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:La table 'news.news_news' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `news_news`
+ERR: 1146:La table 'news.news_news' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `news_news`
+
+[ 2016-06-21T23:59:24+08:00 ] ::1 /news_publish_tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:La table 'news.news_news' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `news_news`
+ERR: 1146:La table 'news.news_news' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `news_news`
+
